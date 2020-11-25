@@ -91,10 +91,6 @@ public class RelojDigital extends JLabel implements Serializable
     
     /**
      * Método para comprobar si dos horas coinciden
-     * @param horaActual 
-     * @param horaAlarma
-     * @return Si la diferencia entre las dos horas es menos de un segundo, devolvemos
-     * true
      */
     private boolean horasCoinciden(Date horaActual, Date horaAlarma)
     {
